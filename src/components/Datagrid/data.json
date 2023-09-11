@@ -1,0 +1,81 @@
+[
+    {
+      "label": "All Students",
+      "tagClassName": "special",
+      "children": [
+        {
+          "label": "1A",
+          "children": [
+            {
+              "label": "李大明1"
+            },
+            {
+              "label": "李大明2"
+            }
+        
+          ]
+        },
+        {
+          "label": "1B",
+          "children": [
+            {
+              "label": "李大明3"
+            },
+            {
+              "label": "李大明4"
+            }
+          ]
+        },
+        {
+          "label": "2A",
+          "children": [
+            {
+              "label": "李大明5"
+            }
+          ]
+        },
+        {
+          "label": "2B",
+          "children": [
+            {
+              "label": "李大明6"
+            }
+          ]
+        },{
+          "label": "5A",
+          "children": [
+            {
+              "label": "李大明7"
+            }
+          ]
+        },{
+          "label": "5B",
+          "children": [
+            {
+              "label": "李大明8"
+            },{
+              "label": "李大明9"
+            },{
+              "label": "李大明10"
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+        "label": "All Teachers",
+        "tagClassName": "special",
+        "children": [
+          {
+            "label": "Teacher Group",
+            "children": [
+              {
+                "label": "ZAHO"
+              }
+            ]
+          }
+        ]
+      }    
+]
+  

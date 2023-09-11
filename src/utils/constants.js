@@ -1,0 +1,9 @@
+export const AUTHORISATION_TOKEN_STORAGE_KEY = 'accesstoken';
+export const AUTHORISATION_USER_NAME_STORAGE_KEY = 'userinfo';
+export const AUTHORISATION_USER_ID_STORAGE_KEY = 'userId';
+export const AUTHORISATION_USER_NAME_ZH_STORAGE_KEY = 'userinfoZh';
+export const AUTHORISATION_USER_HEAD_IMAGE_KEY = 'headImg';
+export const API_URL = process.env.API_URL_DEVELOPMENT;
+export const ROOM_SAVE_MESSAGE = 'saveRoom';
+export const ROOM_PLAY_MESSAGE = 'playRoom';
+export const ROOM_PREVIEW_MESSAGE = 'previewRoom';

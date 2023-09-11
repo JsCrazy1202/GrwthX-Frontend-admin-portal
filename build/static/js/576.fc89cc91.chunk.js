@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkberry_material_react_free=self.webpackChunkberry_material_react_free||[]).push([[576],{47576:function(e,t,r){r.r(t);var a=r(72791),c=r(80184);t.default=()=>(console.log("production"),(0,a.useEffect)((()=>{window.location.href="https://uatgrwth.app360.cn/grwth-as/oauth/authorize?client_id=grwth_x&redirect_uri=https://grwthx.grwth.hk/sso-demo-client/callback&response_type=code&state=aWhT2X"}),["production"]),(0,c.jsx)("div",{}))}}]);
+//# sourceMappingURL=576.fc89cc91.chunk.js.map

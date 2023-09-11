@@ -1,0 +1,146 @@
+.hero-image {
+    background-image: url('../../assets/images/openday/px.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.hero-text > h1 {
+    font-size:50px;
+}
+.hero-content{
+    width: 976px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-content > img{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+.hero-beehives{
+    /* display: flex; */
+    width: 600px;
+    padding: 30px 70px;
+}
+.beehive{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+}
+/* .beehive:first-child{
+    margin-left: 25px;
+} */
+.hero-text > p {
+    font-size: 13px;
+    color: black;
+    width: 420px;
+    margin: 14px auto;
+}
+.hero-footer {
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    display: flex;
+}
+.hero-footer>img{
+    padding: 10px;
+    width: 180px;
+}
+
+@media screen and (max-width: 992px) {
+    .hero-content{
+        width: 700px;
+    }
+    .hero-beehives{
+        width: 600px;
+        padding: 20px 40px;
+    }
+    .hero-content > img{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+    .hero-footer>img{
+        padding: 10px;
+        width: 140px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-content{
+        width: 600px;
+    }
+    .hero-beehives{
+        width: 550px;
+        padding: 20px 25px;
+    }
+    .hero-content > img{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+    .hero-footer>img{
+        padding: 10px;
+        width: 140px;
+    }
+    .hero-footer {
+        bottom: 10px;
+    }
+}
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .hero-content > img{
+        display: none;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-beehives{
+        width: 100%;
+        padding: 20px 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hero-image {
+        height: 100%;
+        display: block;
+    }
+    .hero-footer {
+        position: static;
+        margin-left: 40%;
+    }
+}
+@media screen and (min-height: 769px) {
+    .hero-image {
+        height: 100vh;
+    }
+}
+@media screen and (max-height: 768px) {
+    .hero-text{
+        padding: 24px 0;
+    }
+    .hero-content{
+        margin: auto;
+    }
+    .hero-image {
+        height: 100%;
+        margin: auto;
+        display: block;
+    }
+    .hero-footer {
+        margin-top: 18px;
+        position: relative;
+        margin-left: 40%;
+    }
+}

@@ -1,0 +1,32 @@
+.scrollbar {
+
+    height: 100vh;
+    background: #fff;
+    overflow-y: auto;
+    margin-bottom: 25px;
+    margin-right:-40px;
+  }
+  .force-overflow {
+    max-height: 50px;
+  }
+  
+  .scrollbar-primary::-webkit-scrollbar {
+    width: 7px;
+    background-color: #CCCCCC;
+  
+  }
+  
+  .scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #2CC5CE;
+
+  }
+  
+  .scrollbar-primary {
+    scrollbar-color: #2CC5CE  #CCCCCC;
+
+  }
+  
+
+  

@@ -1,0 +1,7 @@
+.tree-control_wrapper {
+    max-width: 100px;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-top: 20px;
+}
